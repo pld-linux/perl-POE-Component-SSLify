@@ -14,6 +14,7 @@ Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	8c3a9c5d538453105e20b2a3a0fce183
 #Patch0:		%{name}
 # most of CPAN modules have generic URL (substitute pdir and pnam here)
 URL:		http://search.cpan.org/dist/POE-Component-SSLify
