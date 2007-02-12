@@ -7,7 +7,7 @@
 %define		pdir	POE
 %define		pnam	Component-SSLify
 Summary:	POE::Component::SSLify - make using SSL in the world of POE easy
-Summary(pl):	POE::Component::SSLify - ³atwe u¿ywanie SSL-a w ¶wiecie POE
+Summary(pl.UTF-8):   POE::Component::SSLify - Å‚atwe uÅ¼ywanie SSL-a w Å›wiecie POE
 Name:		perl-POE-Component-SSLify
 Version:	0.06
 Release:	1
@@ -29,8 +29,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module makes Net::SSLeay's SSL sockets behave with POE.
 
-%description -l pl
-Ten modu³ pozwala na wspó³pracê gniazd SSL z Net::SSLeay z POE.
+%description -l pl.UTF-8
+Ten moduÅ‚ pozwala na wspÃ³Å‚pracÄ™ gniazd SSL z Net::SSLeay z POE.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
