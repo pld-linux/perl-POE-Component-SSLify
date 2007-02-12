@@ -7,7 +7,7 @@
 %define		pdir	POE
 %define		pnam	Component-SSLify
 Summary:	POE::Component::SSLify - make using SSL in the world of POE easy
-Summary(pl.UTF-8):   POE::Component::SSLify - łatwe używanie SSL-a w świecie POE
+Summary(pl.UTF-8):	POE::Component::SSLify - łatwe używanie SSL-a w świecie POE
 Name:		perl-POE-Component-SSLify
 Version:	0.06
 Release:	1
