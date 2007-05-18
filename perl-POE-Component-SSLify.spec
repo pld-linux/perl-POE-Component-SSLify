@@ -9,13 +9,13 @@
 Summary:	POE::Component::SSLify - make using SSL in the world of POE easy
 Summary(pl.UTF-8):	POE::Component::SSLify - łatwe używanie SSL-a w świecie POE
 Name:		perl-POE-Component-SSLify
-Version:	0.06
+Version:	0.08
 Release:	1
 # "same as perl" according to readme
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	20bda6f76eacf1d1d4ecb02f922c99f7
+# Source0-md5:	12dfe1b092b111a1743fe6f803868d35
 URL:		http://search.cpan.org/dist/POE-Component-SSLify/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
