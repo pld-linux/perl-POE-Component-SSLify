@@ -14,14 +14,14 @@ Release:	1
 # "same as perl" according to readme
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/POE/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	12dfe1b092b111a1743fe6f803868d35
 URL:		http://search.cpan.org/dist/POE-Component-SSLify/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with autodeps} || %{with tests}
-BuildRequires:	perl-Net-SSLeay >= 1.30
 BuildRequires:	perl-IO-stringy
+BuildRequires:	perl-Net-SSLeay >= 1.30
 %endif
 Requires:	perl-Net-SSLeay >= 1.30
 BuildArch:	noarch
