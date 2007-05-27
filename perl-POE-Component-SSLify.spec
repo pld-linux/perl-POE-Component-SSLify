@@ -21,6 +21,7 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with autodeps} || %{with tests}
 BuildRequires:	perl-Net-SSLeay >= 1.30
+BuildRequires:	perl-IO-stringy
 %endif
 Requires:	perl-Net-SSLeay >= 1.30
 BuildArch:	noarch
